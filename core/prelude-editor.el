@@ -343,6 +343,7 @@ indent yanked text (with prefix arg don't indent)."
 (require 'whitespace)
 (setq whitespace-line-column 80) ;; limit line length
 (setq whitespace-style '(face tabs empty trailing lines-tail))
+(setq whitespace-style '(face tabs spaces trailing lines space-before-tab newline indentation empty space-after-tab space-mark tab-mark newline-mark))
 
 ;; saner regex syntax
 (require 're-builder)
