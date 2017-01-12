@@ -21,3 +21,8 @@
 
 ;;(setq make-backup-files nil
 ;;      backup-inhibited t)
+
+;; use tabs not spaces
+(setq-default indent-tabs-mode t)
+(setq tab-width 4)
+(defvaralias 'c-basic-offset 'tab-width)
