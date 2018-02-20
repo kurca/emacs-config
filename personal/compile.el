@@ -1,5 +1,6 @@
 (global-set-key [C-f7] 'compile)
 (global-set-key [f7] 'recompile)
+(global-set-key [S-f7] 'kill-compilation)
 
 ;; I'm not scared of saving everything.
 (setq compilation-ask-about-save nil)
