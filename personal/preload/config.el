@@ -12,6 +12,7 @@
 
 ;; set default font, nice monotype fonts
 ;; (set-default-font "9x15")
-;; (set-default-font "-unknown-Droid Sans Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-(set-default-font "-unknown-DejaVu Sans Mono-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1")
+(set-default-font "DejaVu Sans Mono-11")
 
+;; set font for mode-line
+(set-face-attribute 'mode-line nil :font "DejaVu Sans Mono-9")
