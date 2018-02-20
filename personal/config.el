@@ -24,6 +24,10 @@
 ;;(setq make-backup-files nil
 ;;      backup-inhibited t)
 
+
+;; don't wrap lines
+(setq-default truncate-lines t)
+
 ;; use tabs not spaces
 (setq-default indent-tabs-mode t)
 (setq tab-width 4)
