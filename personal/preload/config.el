@@ -16,3 +16,9 @@
 
 ;; set font for mode-line
 (set-face-attribute 'mode-line nil :font "DejaVu Sans Mono-9")
+
+;;(set-face-attribute 'ecb-directories-general-face nil :font "DejaVu Sans Mono-8")
+;;(set-face-attribute 'ecb-history-general-face nil :font "DejaVu Sans Mono-8")
+;;(set-face-attribute 'ecb-methods-general-face nil :font "DejaVu Sans Mono-8")
+;;(set-face-attribute 'ecb-sources-general-face nil :font "DejaVu Sans Mono-8")
+

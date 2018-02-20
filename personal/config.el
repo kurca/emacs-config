@@ -24,6 +24,10 @@
 ;;(setq make-backup-files nil
 ;;      backup-inhibited t)
 
+;; save buffer(s)
+(global-set-key [f2] 'save-buffer)
+(global-set-key [C-f2] 'save-some-buffers)
+
 
 ;; don't wrap lines
 (setq-default truncate-lines t)
